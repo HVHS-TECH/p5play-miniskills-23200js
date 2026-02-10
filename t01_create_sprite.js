@@ -7,26 +7,22 @@
 /*******************************************************/
 // setup()
 /*******************************************************/
-console.log('hi')
 function setup() {
+	cnv = new Canvas(500, 500);
 	console.log("setup: ");
-cnv = new Canvas(100, 100);
-console.log('hi')
+Rectangle = new Sprite(10, 10, 10, 10);
 
-console.log(cnv)
- xRectangle = new Sprite(1, 2, 3, 4);
-xRectangle.color = '#7aeb34';
+Rectangle.color = 'green';
+Circle = new Sprite(20, 20, 20);
 
- xCircle = new Sprite(10, 10, 10);
-
-xCircle.color = '#2f4521';
-background('#e61022'); 
+Circle.color = 'blue';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
+	background('pink'); 
 }
 
 /*******************************************************/

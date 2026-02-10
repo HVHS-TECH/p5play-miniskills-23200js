@@ -9,14 +9,24 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+	cnv = new Canvas(500, 500);
+	console.log("setup: ");
+Rectangle = new Sprite(100, 100, 100, 100);
+Rectangle.rotationSpeed = 67;
 
+Rectangle.vel.x = 2;
+Rectangle.color = 'green';
+Circle = new Sprite(20, 20, 20);
+
+Circle.color = 'blue';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+		background('pink'); 
+
 }
 
 /*******************************************************/
