@@ -33,15 +33,18 @@ wallBot = new Sprite(500, 150, 1500, 10, 'k');
 
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
 
-ball_1.color = 'cyan';
+	for (i = 0; i < alien; i++) {
 
-ball_1.vel.x = 2;
+  alien = new Sprite(180, 270, 50, 50, 'k');
 
-ball_1.bounciness = 1;
 
-ball_1.friction = 0;
+  alien.vel.x = 3;
 
-ball_1.drag = 0;
+  alien.vel.y = 4;
+
+  alien.bounciness = 1;
+
+  alien.friction = 0;
 
 
 }
