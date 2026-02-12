@@ -8,14 +8,25 @@
 // setup()
 /*******************************************************/
 function setup() {
-	cnv = new Canvas(500, 500);
-	console.log("setup: ");
-Rectangle = new Sprite(10, 10, 10, 10);
+cnv = new Canvas(width = random(300,600),
+height = random(300,600)
+);
 
-Rectangle.color = 'green';
-Circle = new Sprite(20, 20, 20);
+red = new Sprite(250, 50 ,100,100);
+red.color = 'red';
 
-Circle.color = 'blue';
+green = new Sprite( 550, 50, 100,100);
+green.color = 'green';
+
+blue = new Sprite( 550, 50 ,  100,100);
+blue.color = 'blue';
+
+yellow = new Sprite( 50, 50 ,  100,100);
+yellow.color = 'yellow';
+
+purple = new Sprite( 150, 300 ,  100,100);
+purple.color = 'purple';
+
 }
 	
 /*******************************************************/
