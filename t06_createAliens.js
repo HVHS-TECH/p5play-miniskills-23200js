@@ -18,6 +18,7 @@ Rectangle.color = 'green';
 Rectangle.bounciness = 10;
 
 
+
 wallLH  = new Sprite(0, 10/2, 8, 10, 'k');
 
 wallLH.color = 'black';
@@ -42,21 +43,9 @@ ball_1.friction = 0;
 
 ball_1.drag = 0;
 
-	for (i = 0; i < alien; i++) {
-
-  alien = new Sprite(180, 270, 50, 50, 'k');
-
-
-  alien.vel.x = 3;
-
-  alien.vel.y = 4;
-
-  alien.bounciness = 1;
-
-  alien.friction = 0;
 
 }
-}
+
 
 	
 /*******************************************************/
